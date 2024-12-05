@@ -1,0 +1,40 @@
+.flagWrapper {
+    width: 50px;
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.flagWrapper img {
+    width: 100%;
+    flex-shrink: 1;
+}
+
+.country-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.Europe {
+    color: #ffde21;
+}
+
+.Asia {
+    color: indianred;
+}
+
+.Africa {
+    color: dodgerblue;
+}
+
+.Oceania {
+    color: rebeccapurple;
+}
+
+.Americas {
+    color: mediumseagreen;
+}
+
+.Antarctic {
+    color: lightblue;
+}

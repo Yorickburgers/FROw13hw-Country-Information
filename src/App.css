@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+.imageWrapper {
+    width: 100vw;
+}
+
+.imageWrapper img {
+    width: 100%;
+}
+
+button+input {
+    margin-left: 20px;
+}
+
+input {
+    padding: 20px;
+    border-radius: 30px 0 0 30px;
+    border: 1px solid rosybrown;
+    width: 250px;
+}
+
+.searchButton {
+    color: white;
+    border-radius: 0 30px 30px 0;
+    padding: 20px;
+    background-color: rosybrown;
+    border: 1px solid indianred;
+
+}
+
+.mapButton {
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: rosybrown;
+    border: 1px solid indianred;
+    margin-top: 20px;
+}
+
+.error-message {
+    color: white;
+    margin: 10px;
+    border: 1px solid darkred;
+    background-color: red;
+}
+
+.countries-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.country-article {
+    width: 250px;
+    margin: 20px;
+    list-style: none;
+}
