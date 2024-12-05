@@ -25,4 +25,21 @@
     color: white;
     background-color: rosybrown;
     border: 1px solid indianred;
+    margin-top: 20px;
+}
+
+.countries-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.country-article {
+    width: 250px;
+    margin: 20px;
 }
