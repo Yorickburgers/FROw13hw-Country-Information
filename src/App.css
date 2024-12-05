@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+.imageWrapper {
+    width: 100vw;
+}
+
+.imageWrapper img {
+    width: 100%;
+}
+
+.mapButton {
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: rosybrown;
+    border: 1px solid indianred;
+}
