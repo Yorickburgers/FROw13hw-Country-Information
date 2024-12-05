@@ -42,16 +42,6 @@ function App() {
         }
     }
 
-    function changeSearchTermState(e) {
-        setSearchTerm(e.target.value);
-    }
-
-    function pressedEnter(e) {
-        if (e.key === "Enter") {
-            fetchSpecificCountry();
-        }
-    }
-
     return (
         <>
             <span className="imageWrapper">
@@ -65,8 +55,8 @@ function App() {
                         type="text"
                         value={searchTerm}
                         placeholder="For example Peru or Germany"
-                        onChange={changeSearchTermState}
-                        onKeyDown={pressedEnter}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        onKeyDown={(e) => e.key === "Enter" && fetchSpecificCountry()}
                     />
                     <button
                         type="button"
